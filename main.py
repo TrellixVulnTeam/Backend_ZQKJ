@@ -26,7 +26,7 @@ def wordCloud():
     if request.method=="POST":
         inputString = request.json["data"]
         mainProcess(inputString)
-        return send_file('1.PNG')
+        return send_file('1.png')
 
 if __name__ == "__main__":
     app.run(debug=True)
