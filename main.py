@@ -15,7 +15,7 @@ def mainProcess(inputString):
     plt.figure(figsize = (8, 8), facecolor = None) 
     plt.imshow(wordcloud) 
     plt.axis("off")
-    plt.savefig('penv/1.png',bbox_inches='tight')
+    plt.savefig('1.png',bbox_inches='tight')
 
 @app.route('/',methods=['GET'])
 def test():
